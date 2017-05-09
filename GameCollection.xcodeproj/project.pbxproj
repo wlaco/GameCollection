@@ -13,6 +13,7 @@
 		96A2F77E1EBA8ABE0054743E /* GameCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A2F77C1EBA8ABE0054743E /* GameCollection.xcdatamodeld */; };
 		96A2F7801EBA8ABE0054743E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A2F77F1EBA8ABE0054743E /* Assets.xcassets */; };
 		96A2F7831EBA8ABE0054743E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A2F7811EBA8ABE0054743E /* LaunchScreen.storyboard */; };
+		96A2F78B1EBA8EC30054743E /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A2F78A1EBA8EC30054743E /* AddGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96A2F77F1EBA8ABE0054743E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A2F7821EBA8ABE0054743E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A2F7841EBA8ABE0054743E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A2F78A1EBA8EC30054743E /* AddGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				96A2F7751EBA8ABD0054743E /* AppDelegate.swift */,
 				96A2F7771EBA8ABD0054743E /* ViewController.swift */,
+				96A2F78A1EBA8EC30054743E /* AddGameViewController.swift */,
 				96A2F7791EBA8ABE0054743E /* Main.storyboard */,
 				96A2F77F1EBA8ABE0054743E /* Assets.xcassets */,
 				96A2F7811EBA8ABE0054743E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A2F78B1EBA8EC30054743E /* AddGameViewController.swift in Sources */,
 				96A2F7781EBA8ABD0054743E /* ViewController.swift in Sources */,
 				96A2F77E1EBA8ABE0054743E /* GameCollection.xcdatamodeld in Sources */,
 				96A2F7761EBA8ABD0054743E /* AppDelegate.swift in Sources */,
